@@ -43,14 +43,13 @@ Shery.mouseFollower();
 
 Shery.makeMagnet(".magnet");
 
-Shery.hoverWithMediaCircle(".hvr", {  
+Shery.hoverWithMediaCircle(".hvr", {
   videos: [
     "./assets/videos/01.mp4",
     "./assets/videos/02.mp4",
     "./assets/videos/03.mp4",
   ],
 });
-
 
 function swiper() {
   var swiper = new Swiper(".mySwiper", {
@@ -65,6 +64,3 @@ function swiper() {
   });
 }
 swiper();
-
-
-
